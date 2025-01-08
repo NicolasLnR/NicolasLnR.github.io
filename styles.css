@@ -1,0 +1,102 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #9370DB;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #9370DB;
+}
+
+.skills, .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill, .project {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #2867B2;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.social a:hover {
+    background-color: #004182;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #9370DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #7A5DC7;
+}
